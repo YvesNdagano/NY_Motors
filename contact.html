@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NY_MOTORS - Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo"><h2>🚗 NY_MOTORS</h2></div>
+      <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <h1>Contact Us</h1>
+    <p>We're here to help you find your perfect vehicle</p>
+  </header>
+
+  <main>
+    <section class="contact-intro">
+      <h2>Get in Touch</h2>
+      <p>Have questions? Want to schedule a test drive? We'd love to hear from you!</p>
+    </section>
+
+    <div class="contact-container">
+      <div class="contact-form-section">
+        <h3>Send Us a Message</h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group"><label for="name">Full Name *</label><input type="text" id="name" name="name" required placeholder="John Doe"></div>
+          <div class="form-group"><label for="email">Email Address *</label><input type="email" id="email" name="email" required placeholder="john@example.com"></div>
+          <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="(555) 123-4567"></div>
+          <div class="form-group"><label for="interest">I'm Interested In *</label>
+            <select id="interest" name="interest" required>
+              <option value="">Select an option</option>
+              <option value="range-rover">Range Rover Sport</option>
+              <option value="escalade">Cadillac Escalade</option>
+              <option value="tesla">Tesla Model S</option>
+              <option value="mercedes">Mercedes G-Class</option>
+              <option value="bmw">BMW X7</option>
+              <option value="audi">Audi Q8 e-tron</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="message">Message *</label><textarea id="message" name="message" rows="5" required placeholder="Tell us about your requirements..."></textarea></div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info-section">
+        <h3>Contact Information</h3>
+        <div class="info-box"><div class="info-icon">📍</div><div><h4>Visit Our Showroom</h4><p>123 Motor Street<br>New York, NY 10001<br>United States</p></div></div>
+        <div class="info-box"><div class="info-icon">📞</div><div><h4>Call Us</h4><p>Phone: (555) 123-4567<br>Fax: (555) 123-4568<br>Mon-Sat: 9AM - 6PM</p></div></div>
+        <div class="info-box"><div class="info-icon">📧</div><div><h4>Email Us</h4><p>General: info@nymotors.com<br>Sales: sales@nymotors.com<br>Support: support@nymotors.com</p></div></div>
+        <div class="info-box"><div class="info-icon">⏰</div><div><h4>Business Hours</h4><p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p></div></div>
+      </div>
+    </div>
+
+    <section class="map-section">
+      <h3>Find Us on the Map</h3>
+      <div class="map-placeholder"><p>📍 123 Motor Street, New York, NY 10001</p><p style="font-size:0.9rem;color:#666;">Map integration available for live website</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section"><h4>NY_MOTORS</h4><p>Your trusted partner in premium automobiles since 2020</p></div>
+      <div class="footer-section"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="inventory.html">Inventory</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-section"><h4>Contact Info</h4><p>📧 info@nymotors.com</p><p>📞 (555) 123-4567</p><p>📍 123 Motor Street, NY 10001</p></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025 NY_MOTORS. All rights reserved. | School Project</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
